@@ -16,8 +16,8 @@ form {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 350px;
-  width: 40vw;
+  height: 410px;
+  width: 270px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -29,23 +29,23 @@ img {
   margin: auto;
   position: absolute;
   top: -40px;
-  left: 130px;
+  left: 85px;
 }
-.align {
-  margin-top: 100px;
+h2{
+    margin-top: 90px;
 }
 
 input {
   display: block;
   margin:20px auto;
-  width: 190px;
+  width: 170px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 button{
     width: 110px;
-    padding: 3px;
+    padding: 5px;
     margin-bottom: 7px;
     border-radius: 10px;
     border: none;
@@ -54,4 +54,12 @@ button{
     text-transform: capitalize;
     font-weight: bold;
     color: white;
+    transition: all 0s ease;
+}
+button:hover{
+    background-color: chocolate;
+    color: chartreuse;
+}
+p{
+    cursor: pointer;
 }
